@@ -1,0 +1,82 @@
+#container{
+	border : 6px solid grey;
+  border-radius: 20%;
+  border-width: 30px;
+  width: 500px;
+  margin: 100px auto 0;
+}
+
+#mainDiv{
+	display: block;
+  width: 400px;
+  margin: 100px auto 0;
+  
+  
+}
+
+/* bring all UI to centre and look cleaner. Did not work in class so added redundant code */
+#mainHeading{
+  display: block;
+  width: 400px;
+  margin: -100px auto 0;
+}
+
+/* To add Line below each list */
+.addBorder{
+	border-bottom: 2px dashed purple;
+	margin-bottom: 4px;
+}
+
+/* Make all headings capital */
+h3{
+	text-transform: uppercase;
+}
+
+/* Define MArgin to each li element */
+.addMargin{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	list-style: none;
+}
+
+button{
+	outline: none;
+	border:0px;
+	background:none;
+	margin: 10px 0 0;
+
+}
+
+/* Add Styling to the buttons */
+button:hover{
+	color: red;
+	box-shadow: 5px -5px 5px blue;
+}
+
+.listProperty{
+	list-style: none;
+}
+
+#completedTasks li{
+	color: red;
+	text-decoration: line-through;
+}
+
+#incompleteTasks button{
+	margin-left: 200px;
+	border: 2px solid red;
+	background-color: grey;
+}
+
+#counter{
+	display: inline-block;
+	width: 100%;
+}
+
+#leftCount{
+	float: left;
+}
+
+#rightCount{
+	float: right;
+}

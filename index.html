@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TODO-LIST</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id = "container">
+	<h2 id = "mainHeading">TODO APP</h2>
+<div id = "mainDiv">
+	<h3> NEW ITEM</h3>
+	<p class = "addBorder">
+	<input type="text" id = "inputBox" class = "addMargin" placeholder="Enter Your Task"><button id="addTODO">Add Item</button>
+    </p>
+    
+    <div class = "addBorder">
+    	<h3> Your Remaining Tasks </h3>
+    <ul id = "incompleteTasks">
+    	<li class = "addMargin"></li>
+    </ul>
+    </div>
+
+    <div class = "addBorder">
+    	<h3> Completed Tasks</h3>
+    	<ul id = "completedTasks">
+    		<li class = "addMargin"></li>
+    	</ul>
+    </div>
+    <div id = "counter">
+    	<div id="leftCount">
+    	<p>Items Left <span id = "todoLeft"></span></p>
+    </div>
+    <div id="rightCount"> 
+    	<p>Completed <span id = "completed"></span></p>
+    	</div>
+    </div>
+</div>
+</div>
+
+      <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
